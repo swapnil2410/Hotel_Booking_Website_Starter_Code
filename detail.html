@@ -10,7 +10,7 @@
     <header>
         <header>
             <div class="container">
-                <img src="./assests/images/logo.png" height="100" width="150"><br>            
+                <a href="./index.html"><img src="./assests/images/logo.png" height="100" width="150"></a><br>            
                 <div class="bottomright"><a href="./login.html" target="_blank">Login</a></div><br>        
             </div>
         </header>
@@ -20,12 +20,27 @@
     <body>
     
             <div>
-                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg">
-                 <a href="./payment.html"target="Blank">Book now</a> 
-                 <h2>Radisson Blu Hotel</h2>
-                  RATING <br> 
-                  5 star <br>
-                  AMENITIES
+                 <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg"><br>
+                 
+                 <form action= "payment.html"> 
+                    <label for="username">Adults</label>
+                    <input type="number" name="username" min = "1" id="username"required><br>
+                    <label for="name">Name</label>
+                    <input type="text" name="name"id="name" required><br>
+                    <label for="username">From Date</label>
+                    <input type="date" name="username"id="username"required><br>
+                    <label for="username">To Date</label>
+                    <input type="date" name="username"id="username"required><br>
+                    <label for="username">Total</label>
+                    <input type="text" name="username" disabled ="true" id="username"><br>
+                    <input type="submit" value ="Book Now">
+                   
+                </form>
+                 
+                 <h2>Radisson Blu Hotel</h2> <br> 
+                  RATING <br> <br>
+                  5 star <br> <br>
+                  AMENITIES <br>
                   <ul>
                     <li>Room service</li>
                     <li>Restaurant</li>
