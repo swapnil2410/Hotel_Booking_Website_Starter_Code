@@ -1,0 +1,10 @@
+.container {
+    position: relative;
+  }
+  
+  .bottomright {
+    position: absolute;
+    bottom: 8px;
+    left: 150px;
+    font-size: 12px;
+  }
