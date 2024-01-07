@@ -1,10 +1,20 @@
 .container {
-    position: relative;
-  }
-  
-  .bottomright {
-    position: absolute;
-    bottom: 8px;
-    left: 150px;
-    font-size: 12px;
-  }
+  position: relative;
+  border-radius: 100%;
+ }
+
+.bottomright {
+  position: absolute;
+  bottom: 8px;
+  left: 50px;
+  font-size: 12px;
+}
+.SocialMedia img{
+  width: 22px;
+  height: 20px;
+
+}
+.hoteldetails img{
+  width: 500px;
+  height: 500px;
+}
