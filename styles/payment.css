@@ -19,3 +19,37 @@
   height: 500px;
 
 }
+body{
+  margin: 0%;
+  border: 5px solid black
+}
+body{
+  background: #e0e0e0;
+  
+}
+#Header{
+  background: rosybrown;
+}
+#Footer{
+  background: rosybrown;
+}
+#hotelimage{
+  box-shadow: 0 0 0 0;
+  background-color: rgb(132, 136, 139);
+  transition: 0.3s;
+  margin-top: 2% ;
+  margin-bottom: 2%;
+  width: 50%;
+  height: 20%;
+  margin-left:350px;
+}
+.PaymentDetail{
+  margin: 2%;
+}
+#Tariffdetail{
+  width: 1350px;
+  border: 1px solid black;
+  padding: 1% 2% 1% 2%;
+  margin: 2%;
+  border-radius: 5px 5px 5px 5px;
+}

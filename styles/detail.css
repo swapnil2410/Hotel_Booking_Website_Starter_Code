@@ -18,3 +18,28 @@
   width: 500px;
   height: 500px;
 }
+body{
+  margin: 0%;
+  border: 5px solid black
+}
+body{
+  background: #e0e0e0;
+  
+}
+#Header{
+  background: rosybrown;
+}
+#Footer{
+  background: rosybrown;
+}
+#hotelimagedeatil{
+  margin: 2% 4% 0% 4%;
+}
+#form{
+  margin: 0% 4% 1% 4%;
+
+}
+#hoteldescription{
+  margin: 1% 4% 2% 4%;
+
+}
