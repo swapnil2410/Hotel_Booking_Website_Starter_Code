@@ -3,13 +3,8 @@
   border-radius: 100%;
  }
 
-.bottomright {
-  position: absolute;
-  bottom: 8px;
-  left: 50px;
-  font-size: 12px;
-}
-.SocialMedia img{
+
+.socialmedia img{
   width: 22px;
   height: 20px;
 
@@ -26,11 +21,21 @@ body{
   background: #e0e0e0;
   
 }
-#Header{
+.Header{
   background: rosybrown;
 }
-#Footer{
+.Footer{
   background: rosybrown;
+}
+.cityimage img{
+  padding: 4%;
+  border-radius: 50px 50px 50px 50px;
+}
+.cityimage{
+  margin :0% 15% 0% 15%;
+}
+.Copyright{
+  margin-left: 40%;
 }
 #hotelimagedeatil{
   margin: 2% 4% 0% 4%;
@@ -42,4 +47,28 @@ body{
 #hoteldescription{
   margin: 1% 4% 2% 4%;
 
+}
+.bottomright {
+  position: static;
+  bottom: 20px;
+  left: 50px;
+  font-size: 12px;
+  margin-left:95%;
+ 
+}
+
+.bottomleft {
+  position: relative;
+  top:10px;
+}
+.socialmedia img{
+  width: 22px;
+  height: 20px;
+}
+.socialmedia{
+  display: inline;
+  margin-left: 1380px;
+}
+a {
+  text-decoration: none;
 }

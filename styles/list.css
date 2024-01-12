@@ -1,22 +1,37 @@
+a {
+  text-decoration: none;
+}
+
 .container {
     position: relative;
     border-radius: 100%;
   }
+  #Navbar{
+    margin-left: 45%;
+    color:
+   }
+
   
   .bottomright {
-    position: absolute;
-    bottom: 8px;
+    position: static;
+    bottom: 20px;
     left: 50px;
     font-size: 12px;
+    margin-left:95%;
+    
+    
   }
   .listview img{
     width: 250px;
     height:250px;
   }
-  .SocialMedia img{
+  .socialmedia img{
     width: 22px;
     height: 20px;
-
+  }
+  .socialmedia{
+    display: inline;
+    margin-left: 1380px;
   }
   body{
     margin: 0%;
@@ -26,33 +41,50 @@
     background: #e0e0e0;
     
   }
-  #Header{
+  .Header{
     background: rosybrown;
   }
-  #Footer{
+  .Footer{
     background: rosybrown;
   }
-  #hotel1{
+  .cityimage img{
+    padding: 4%;
+    border-radius: 50px 50px 50px 50px;
+  }
+  .cityimage{
+    margin :0% 15% 0% 15%;
+  }
+  .Copyright{
+    margin-left: 40%;
+  }
+  .hotel{
   box-shadow: 0 4px 8px 0;
   background-color: rgb(132, 136, 139);
   transition: 0.3s;
   margin: 2%;
-  width: 40%;
-  }
-  #hotel2{
-    box-shadow: 0 4px 8px 0;
-    background-color: rgb(132, 136, 139);
-    transition: 0.3s;
-    margin: 2%;
-    width: 40%;
-    }
-    #hotel3{
-      box-shadow: 0 4px 8px 0;
-      background-color: rgb(132, 136, 139);
-      transition: 0.3s;
-      margin: 2%;
-      width: 40%;
-      }
+  width: 90%;
+
+} 
+
+      /* Float four columns side by side */
+.column {
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+* {
+  box-sizing: border-box;
+}
        
      
   

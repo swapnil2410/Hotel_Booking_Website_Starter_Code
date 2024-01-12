@@ -2,18 +2,37 @@
   position: relative;
   border-radius: 100%;
  }
+ a {
+  text-decoration: none;
+}
 
-.bottomright {
-  position: absolute;
-  bottom: 8px;
+ .bottomright {
+  position: static;
+  bottom: 20px;
   left: 50px;
   font-size: 12px;
+  margin-left:95%;
+ 
 }
-.SocialMedia img{
+
+.bottomleft {
+  position: relative;
+  top:10px;
+}
+
+.socialmedia img{
   width: 22px;
   height: 20px;
-
 }
+.socialmedia{
+  display: inline;
+  margin-left: 1380px;
+}
+.contact-us{
+    padding-top: 3%;      
+}
+.contact-us a:hover   {color:#000;
+}    
 #hotelimage img{
   width: 500px;
   height: 500px;
@@ -27,11 +46,14 @@ body{
   background: #e0e0e0;
   
 }
-#Header{
+.Header{
   background: rosybrown;
 }
-#Footer{
+.footer{
   background: rosybrown;
+}
+.Copyright{
+  margin-left: 40%;
 }
 #hotelimage{
   box-shadow: 0 0 0 0;
